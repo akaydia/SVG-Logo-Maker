@@ -8,7 +8,7 @@ class Circle extends Shape {
     } // constructor    
 
     draw() {
-        return `<circle cx="150" cy="100" r="${this.radius}" fill="${this.color}" />`;
+        return `<circle cx="150" cy="100" r="75" fill="${this.color}" />`;
     } // draw()
 } // circle 
 

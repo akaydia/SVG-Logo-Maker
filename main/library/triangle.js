@@ -8,12 +8,10 @@ class Triangle extends Shape {
     } // constructor
 
     draw() {
-        const height = Math.sqrt(3) / 2 * this.sideLength;
         return `
-            <polygon points = "150, ${100 - height / 3} ${150 - this.sideLength} ${150 + this.sideLength / 2},
-            ${100 + height / 3}" fill="${this.color}" />
-        `
-    } // draw()
+        <polygon points="150,25 75,175 225,175" fill="${this.color}" />
+        `;
+      } // draw
 } // triangle
 
 module.exports = Triangle;

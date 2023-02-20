@@ -8,11 +8,13 @@ class Square extends Shape {
     } // constructor
 
     draw() {
-        return `
-        <rect x="${150 - this.sideLength / 2}" y="${100 - this.sideLength / 2}" width="${this.sideLength}"
-        height="${this.sideLength} fill="${this.color}" />
-        `;
-    } // draw()
+      const x = (300 - this.sideLength) / 2;
+      const y = (200 - this.sideLength) / 2;
+      return `
+        <rect x="${x}" y="${y}" width="${this.sideLength}" height="${this.sideLength}" fill="${this.color}" />
+      `;
+    }
+
 
 } // Square
 
