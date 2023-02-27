@@ -1,8 +1,0 @@
-
-    <svg width="300" height="200">
-        
-        <polygon points="150,25 75,175 225,175" fill="black" />
-        
-        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
-            font-size="32" fill="gray" >ppp</text>
-    </svg>

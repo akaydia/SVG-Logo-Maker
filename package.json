@@ -1,0 +1,26 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "A command line to create a svg logo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/plugin-syntax-jsx": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-jest": "^29.4.3",
+    "jest": "^28.1.3",
+    "jest-environment-jsdom-global": "^4.0.0"
+  }
+}
