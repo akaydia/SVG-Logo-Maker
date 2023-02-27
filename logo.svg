@@ -1,6 +1,6 @@
 
     <svg width="300" height="200">
-        <circle cx="150" cy="100" r="75" fill="00FF00" />
+        <rect x="50" y="0" width="200" height="200" fill="teal" />
         <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central"
-            font-size="32" fill="00FF00" >aaa</text>
+            font-size="32" fill="orange" >ooo</text>
     </svg>
